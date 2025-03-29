@@ -1,0 +1,8 @@
+{
+  "args": {
+    "email": "23f3002675@ds.study.iitm.ac.in"
+  },
+
+  "origin": "134.238.240.174",
+  "url": "https://httpbin.org/get?email=23f3002675%40ds.study.iitm.ac.in"
+}

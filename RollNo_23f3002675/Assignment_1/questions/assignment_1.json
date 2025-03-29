@@ -1,0 +1,75 @@
+[
+  {
+    "question": "Install and run Visual Studio Code. In your Terminal (or Command Prompt), type code -s and press Enter. Copy and paste the entire output below.\nWhat is the output of code -s?",
+    "answer": "Handled locally. Requires system execution of 'code -s'."
+  },
+  {
+    "question": "Running uv run --with httpie -- https [URL] installs the Python package httpie and sends a HTTPS request to the URL.\nSend a HTTPS request to https://httpbin.org/get with the URL encoded parameter email set to 23f3002675@ds.study.iitm.ac.in\nWhat is the JSON output of the command? (Paste only the JSON body, not the headers)",
+    "answer": ""
+  },
+  {
+    "question": "Download README.md. In the directory where you downloaded it, make sure it is called README.md, and run:\nnpx -y prettier@3.4.2 README.md | sha256sum\nWhat is the output of the command?",
+    "answer": ""
+  },
+  {
+    "question": "Let's make sure you can write formulas in Google Sheets. Type this formula into Google Sheets (won't work in Excel):\n=SUM(ARRAY_CONSTRAIN(SEQUENCE(100, 100, 4, 13), 1, 10))\nWhat is the result?",
+    "answer": ""
+  },
+  {
+    "question": "Let's make sure you can write formulas in Excel (Office 365 only):\n=SUM(TAKE(SORTBY({7,3,11,8,9,2,6,6,2,8,2,12,0,14,0,15}, {10,9,13,2,11,8,16,14,7,15,5,4,6,1,3,12}), 1, 7))\nWhat is the result?",
+    "answer": ""
+  },
+  {
+    "question": "DevTools: Just above this paragraph, there's a hidden input with a secret value.\nWhat is the value in the hidden input?",
+    "answer": ""
+  },
+  {
+    "question": "How many Wednesdays are there in the date range 1984-02-27 to 2016-05-07?\nThe dates are in the year-month-day format. Include both the start and end date in your count.",
+    "answer": ""
+  },
+  {
+    "question": "Download and unzip file which has a single extract.csv file inside.\nWhat is the value in the \"answer\" column of the CSV file?",
+    "answer": ""
+  },
+  {
+    "question": "Sort this JSON array of objects by the value of the age field. In case of a tie, sort by the name field. Paste the resulting JSON below without any spaces or newlines.\n[{\"name\":\"Alice\",\"age\":82},{\"name\":\"Bob\",\"age\":39},{\"name\":\"Charlie\",\"age\":99},{\"name\":\"David\",\"age\":21},{\"name\":\"Emma\",\"age\":72},{\"name\":\"Frank\",\"age\":92},{\"name\":\"Grace\",\"age\":25},{\"name\":\"Henry\",\"age\":14},{\"name\":\"Ivy\",\"age\":7},{\"name\":\"Jack\",\"age\":14},{\"name\":\"Karen\",\"age\":80},{\"name\":\"Liam\",\"age\":55},{\"name\":\"Mary\",\"age\":43},{\"name\":\"Nora\",\"age\":99},{\"name\":\"Oscar\",\"age\":20},{\"name\":\"Paul\",\"age\":16}]",
+    "answer": ""
+  },
+  {
+    "question": "Download and use multi-cursors to convert key=value pairs into a single JSON object {key: value, ...}.\nWhat’s the result when you paste the JSON at tools-in-data-science.pages.dev/jsonhash and click the Hash button?",
+    "answer": ""
+  },
+  {
+    "question": "Select all <div>s having a foo class in the hidden element below.\nWhat’s the sum of their data-value attributes?",
+    "answer": ""
+  },
+  {
+    "question": "Download and process the files which contains three files with different encodings:\ndata1.csv: CSV file encoded in CP-1252\ndata2.csv: CSV file encoded in UTF-8\ndata3.txt: Tab-separated file encoded in UTF-16\nEach file has 2 columns: symbol and value.\nWhat is the sum of all values where the symbol matches € OR Ž OR Š across all three files?",
+    "answer": ""
+  },
+  {
+    "question": "Create a GitHub repository. Commit a JSON file called email.json with the value {\"email\": \"23f3002675@ds.study.iitm.ac.in\"}.\nEnter the raw GitHub URL of email.json.",
+    "answer": ""
+  },
+  {
+    "question": "Download and unzip it into a new folder. Replace all 'IITM' (any case) with 'IIT Madras' in all files. Run:\ncat * | sha256sum\nWhat’s the output?",
+    "answer": ""
+  },
+  {
+    "question": "Download and extract it. Use ls with options to list all files in the folder along with their date and file size.\nWhat’s the total size of all files ≥ 693 bytes and modified on or after Wed, 22 Sept, 2004, 4:00 am IST?",
+    "answer": ""
+  },
+  {
+    "question": "Download and extract it. It has 2 nearly identical files, a.txt and b.txt.\nHow many lines are different between a.txt and b.txt?",
+    "answer": ""
+  },
+  {
+    "question": "Download and extract it. Use mv to move all files under folders into an empty folder. Rename all files by replacing each digit with the next (1 → 2, 9 → 0).\nWhat does grep . * | LC_ALL=C sort | sha256sum show?",
+    "answer": ""
+  },
+  {
+    "question": "There is a tickets table in a SQLite DB with columns type, units, and price.\nWhat is the total sales for all rows where type is some variant of 'Gold' (e.g., gold, GOLD)?\nCalculate sales as units * price and sum them.",
+    "answer": ""
+  }
+]
+

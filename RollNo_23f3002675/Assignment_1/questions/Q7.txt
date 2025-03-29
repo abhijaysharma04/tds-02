@@ -1,0 +1,3 @@
+How many Wednesdays are there in the date range 1984-02-27 to 2016-05-07?
+The dates are in the year-month-day format. Include both the start and end date in your count.
+You can do this using any tool (e.g. Excel, Python, JavaScript, manually)

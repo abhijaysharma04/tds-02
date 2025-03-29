@@ -1,0 +1,55 @@
+Version:          Code 1.98.2 (ddc367ed5c8936efe395cffeec279b04ffd7db78, 2025-03-12T13:32:45.399Z)
+OS Version:       Windows_NT x64 10.0.26100
+CPUs:             AMD Ryzen 7 PRO 5850U with Radeon Graphics      (16 x 1896)
+Memory (System):  27.83GB (4.87GB free)
+VM:               0%
+Screen Reader:    no
+Process Argv:     --crash-reporter-id ab494e13-e24f-4986-8eaf-73a30b006148
+GPU Status:       2d_canvas:                              enabled
+                  canvas_oop_rasterization:               enabled_on
+                  direct_rendering_display_compositor:    disabled_off_ok
+                  gpu_compositing:                        enabled
+                  multiple_raster_threads:                enabled_on
+                  opengl:                                 enabled_on
+                  rasterization:                          enabled
+                  raw_draw:                               disabled_off_ok
+                  skia_graphite:                          disabled_off
+                  video_decode:                           enabled
+                  video_encode:                           enabled
+                  vulkan:                                 disabled_off
+                  webgl:                                  enabled
+                  webgl2:                                 enabled
+                  webgpu:                                 enabled
+                  webnn:                                  disabled_off
+
+CPU %   Mem MB     PID  Process
+    0      132    7560  code main
+    0       27    4980     crashpad-handler
+    0      122   12452     gpu-process
+    0       56   20996     utility-network-service
+    0      150   22004  extensionHost [1]
+    0        7   14740       c:\Users\j1016813\.vscode\extensions\ms-python.python-2025.2.0-win32-x64\python-env-tools\bin\pet.exe server
+    0        6   33540         C:\WINDOWS\system32\conhost.exe 0x4
+    0      606   33672       electron-nodejs (bundle.js )
+    0       99   65112       "C:\Users\j1016813\AppData\Local\Programs\Microsoft VS Code\Code.exe" "c:\Users\j1016813\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\json-language-features\server\dist\node\jsonServerMain" --node-ipc --clientProcessId=22004
+    0      249   30020  window [1] (app.py - Untitled (Workspace) - Visual Studio Code)
+    0       90   30368  ptyHost
+    0       57    2088       C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command "try { . \"c:\Users\j1016813\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1\" } catch {}"
+    0       57    6260       C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command "try { . \"c:\Users\j1016813\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1\" } catch {}"
+    0        7   15748       conpty-agent
+    0        7   33692       conpty-agent
+    0       90   31756  fileWatcher [1]
+    0      107   33788  shared-process
+
+Workspace Stats:
+|  Window (app.py - Untitled (Workspace) - Visual Studio Code)
+|    Folder (TDS-01): 15 files
+|      File types: py(8) pyc(4) env(1)
+|      Conf files: dockerfile(1)
+|    Folder (TDS-02): 91 files
+|      File types: txt(31) py(17) js(16) sh(16) env(1) json(1) pyc(1)
+|      Conf files:
+|    Folder (TDS): 217 files
+|      File types: md(101) log(50) py(30) pyc(8) txt(3) env(2) prettierrc(1)
+|                  json(1) png(1) db(1)
+|      Conf files: dockerfile(2)
