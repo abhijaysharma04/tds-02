@@ -35,8 +35,8 @@ async def answer_assignment_question(
         assignment_id = f"assignment_{assignment_num}"
         answer_path = f"./RollNo_23f3002675/{assignment_id}/answers/{task_code}.txt"
         print(f"🔍 Looking for answer at: {answer_path}")  # <--- add this line
-        print("📁 Contents of answer folder:")
-        print(os.listdir(f"./RollNo_23f3002675/assignment_1/answers"))
+        #print("📁 Contents of answer folder:")
+        #print(os.listdir(f"./RollNo_23f3002675/assignment_1/answers"))
 
         if not os.path.exists(answer_path):
             raise HTTPException(status_code=404, detail="Answer file not found.")
