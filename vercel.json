@@ -14,6 +14,5 @@
       "src": "/api/(.*)",
       "dest": "/api/index.py"
     }
-  ],
-  "includeFiles": ["api/RollNo_23f3002675/assignment_*/answers/*.txt"]
+  ]
 }
