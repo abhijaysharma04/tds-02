@@ -33,16 +33,7 @@ async def answer_assignment_question(
 
         assignment_num = determine_assignment_number(task_code)
         assignment_id = f"assignment_{assignment_num}"
-        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        answer_path = os.path.join(
-            BASE_DIR,
-            "RollNo_23f3002675",
-            assignment_id,
-            "answers",
-            f"{task_code}.txt"
-        )
-
-        #@answer_path = f"./RollNo_23f3002675/{assignment_id}/answers/{task_code}.txt"
+        answer_path = f"./RollNo_23f3002675/{assignment_id}/answers/{task_code}.txt"
         print(f"🔍 Looking for answer at: {answer_path}")  # <--- add this line
         print("📁 Contents of answer folder:")
         print(os.listdir(f"./RollNo_23f3002675/assignment_1/answers"))
