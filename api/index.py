@@ -140,7 +140,7 @@ def identify_task_code(question_text: str) -> str:
         return "A27"
 
 
-    if "ngrok" in question_text:
+    if "ngrok" in question_text or "llama" in question_text:
         return "A28"
     return ""
 
