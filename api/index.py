@@ -124,6 +124,9 @@ def identify_task_code(question_text: str) -> str:
     
     if "marks of the names" in question_text or "create and deploy a python app to vercel" in question_text:
         return "A24"
+    
+    if "github action" in question_text and "@ds.study.iitm.ac.in" in question_text:
+        return "A25"
 
     return ""
 
