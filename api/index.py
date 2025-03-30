@@ -54,6 +54,7 @@ async def answer_assignment_question(
         return JSONResponse(status_code=500, content={"error": str(e)})
 
 def identify_task_code(question_text: str) -> str:
+    print("📥 Received question:", question_text)
     question_text = question_text.lower()
     if "code -s" in question_text:
         return "A1"
