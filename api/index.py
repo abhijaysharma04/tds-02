@@ -128,7 +128,11 @@ def identify_task_code(question_text: str) -> str:
     if "github action" in question_text and "@ds.study.iitm.ac.in" in question_text:
         return "A25"
     
-    if "docker hub" in question_text and "23f3002675" in question_text:
+    if (
+        "docker" in question_text
+        and "image" in question_text
+        and ("push" in question_text or "tag" in question_text or "hub" in question_text)
+    ):
         return "A26"
 
     return ""
