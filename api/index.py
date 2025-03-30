@@ -98,6 +98,7 @@ def identify_task_code(question_text: str) -> str:
     # Place Holder for Task 20 to handle imanges
     if "markdown" in question_text and "documentation" in question_text:
         return "A20"
+    
     if "github pages" in question_text and "email_off" in question_text:
         return "A21"
     
@@ -144,6 +145,8 @@ def identify_task_code(question_text: str) -> str:
     ):
         return "A27"
 
+    if "ngrok" in question_text:
+        return "A28"
     return ""
 
 
