@@ -134,6 +134,14 @@ def identify_task_code(question_text: str) -> str:
         and ("push" in question_text or "tag" in question_text or "hub" in question_text)
     ):
         return "A26"
+    
+    if (
+        "fastapi" in question_text 
+        and "students" in question_text 
+        and "class" in question_text 
+        and "query parameter" in question_text
+    ):
+        return "A27"
 
     return ""
 
