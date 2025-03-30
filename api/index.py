@@ -99,6 +99,9 @@ def identify_task_code(question_text: str) -> str:
         return "A20"
     if "github pages" in question_text and "email_off" in question_text:
         return "A21"
+    if "google colab" in question_text and "authenticate_user" in question_text:
+        return "A22"
+    
     return ""
 
 
