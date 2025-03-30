@@ -79,7 +79,7 @@ def identify_task_code(question_text: str) -> str:
         return "A11"
     if "different encodings" in question_text or "€" in question_text or "sum of all values associated with these symbols" in question_text:
         return "A12"
-    if "github" in question_text:
+    if "github" in question_text and "email.json" in question_text:
         return "A13"
     if "replace" in question_text and "iitm" in question_text:
         return "A14"
