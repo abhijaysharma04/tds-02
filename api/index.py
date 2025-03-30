@@ -136,7 +136,7 @@ def identify_task_code(question_text: str) -> str:
     ):
         return "A26"
     
-    if "fastapi" in question_text and  "api" in question_text:
+    if "fastapi" in question_text and "api" in question_text and ("endpoint" in question_text or "/api" in question_text):
         return "A27"
 
 
