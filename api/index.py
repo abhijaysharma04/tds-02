@@ -121,6 +121,10 @@ def identify_task_code(question_text: str) -> str:
         or "calculate" in question_text and "colab" in question_text
     ):
         return "A23"
+    
+    if "marks of the names" in question_text or "create and deploy a python app to vercel" in question_text:
+        return "A24"
+
     return ""
 
 
