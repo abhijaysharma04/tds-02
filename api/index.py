@@ -101,7 +101,15 @@ def identify_task_code(question_text: str) -> str:
         return "A21"
     if "google colab" in question_text or "authenticate_user" in question_text or "oauth2client" in question_text:
         return "A22"
-    if "number of pixels" in question_text or "certain minimum" or "lightness" in question_text:
+    if (
+        "number of pixels" in question_text
+        or "minimum brightness" in question_text
+        or "calculate the pixels" in question_text
+        or "brightness" in question_text
+        or "lightness" in question_text
+        or "image" in question_text
+        or "colab" in question_text
+    ):
         return "A23"
     return ""
 
