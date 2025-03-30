@@ -91,6 +91,8 @@ def identify_task_code(question_text: str) -> str:
         return "A17"
     if "total sales" in question_text and "gold" in question_text:
         return "A18"
+    if "markdown" in question_text and "documentation" in question_text:
+        return "A19"
     return ""
 
 def determine_assignment_number(task_code: str) -> int:
