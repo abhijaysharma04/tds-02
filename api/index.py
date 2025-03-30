@@ -112,15 +112,15 @@ def identify_task_code(question_text: str) -> str:
         and "colab" in question_text
     ):
         return "A22"
+    
     if (
-        "brightness" in question_text
-        or "lightness" in question_text
-        or "number of pixels" in question_text
-        or "image" in question_text
-        or "minimum brightness" in question_text
-        or "calculate" in question_text and "colab" in question_text
+        "colab" in question_text 
+        and "calculate" in question_text 
+        and "pixel" in question_text
+        and "brightness" in question_text
     ):
         return "A23"
+
     
     if "marks of the names" in question_text or "create and deploy a python app to vercel" in question_text:
         return "A24"
